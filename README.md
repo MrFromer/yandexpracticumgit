@@ -64,7 +64,12 @@
 2. ssh -T git@github.com - проверить правильность ключа
 
 ```mermaid
-%% тутуутуту
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
 ```
 
 
